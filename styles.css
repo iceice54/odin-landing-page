@@ -3,6 +3,7 @@
 body {
    font-family: "Roboto";
    display: flex;
+   flex-direction: column;
    background-color: gray;
    margin: 0;
 }
@@ -36,8 +37,4 @@ ul {
     margin-right: 200px;
     display: flex;
     gap: 30px;
-}
-
-.welcome {
-    background-color: #1F2937;
 }
