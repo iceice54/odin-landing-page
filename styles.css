@@ -42,10 +42,16 @@ ul {
 .hero {
     background-color: #1F2937;
     display: flex;
+    padding: 120px;
+    gap: 70px;
 }
 
 .hero-text {
-
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-left: 15%;
+    gap: 12px;
 }
 
 .hero-main-text {
@@ -60,9 +66,20 @@ ul {
 }
 
 .hero-image {
+    display: flex;
     color: #E5E7EB;
+    flex: 1;
+    margin-right: 15%;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
 }
 
 .sign-up-button {
-    color: #3882F6;
+    text-align: center;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 10px;
+    padding: 12px;
+    width: 20%;
 }
