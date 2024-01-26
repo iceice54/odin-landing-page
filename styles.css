@@ -121,3 +121,21 @@ ul {
     margin-top: 10px;
     text-align: center;
 }
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 150px 28%;
+}
+
+.quote-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic
+}
+
+.quote-author {
+    font-size: 20px;
+    text-align: right;
+    font-weight: bold;
+}
