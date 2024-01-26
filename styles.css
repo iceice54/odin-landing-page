@@ -104,13 +104,13 @@ ul {
 }
 
 .information-block {
-    max-width:10%
+    max-width:12%
 }
 
 .information-image {
     margin: auto;
-    width: 150px;
-    height: 150px;
+    width: 90%;
+    aspect-ratio: 1;
     border-style: solid;
     border-color: blue;
     border-width: 3px;
